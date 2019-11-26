@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background: #FFC107;
+    padding: 30px;
+}
+
+header {}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 30px;
+    display: block;
+}
+
+a {}
+nav ul li a:hover{
+    /* color: #5c6161; */
+}
+
+.banner-section{
+    background: #BD8B23;
+    height: 50vh;
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #fff;
+}
+.banner-content h3{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.banner-content h1{
+    font-size: 4em;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.banner-content p{
+    max-width: 900px;
+}
+.banner-content a{color: #fff;text-decoration: none;text-transform: uppercase;background: #ffc107;padding: 10px 30px;display: inline-block;font-size: 20px;font-weight: 800;margin-top: 15px;}
+
+.service-section{
+    padding: 100px 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.heading h1{
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.heading p{}
+
+.service-box{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.service-box .service{
+    background: #F9F9FD;
+    padding: 20px;
+}
+.service-box .service img{}
+.service-box .service h2{
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+.service-box .service p{}
+
+.features-section{
+    background: #F9F9FD;
+    padding: 100px 0px;
+}
+.features-box{width: 33.33%;float: left;padding: 15px;}
+.features-box .features{
+    background: #fff;
+    padding: 20px;
+}
+.features-box .features h2{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.features-box .features p{
+    color: gray;
+    font-size: 16px;
+}
+
+.counter-section{
+    background: #FFB300;
+    padding: 100px 0;
+}
+.counter-box{
+    width: 20%;
+    float: left;
+}
+.counter-box .counter{
+    text-align: center;
+}
+.counter-box .counter h1{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.counter-box .counter p{}
+.gallery-section{
+    padding: 100px 0;
+}
+ul.gallery{}
+ul.gallery li{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+}
+ul.gallery li img{}
+
+.blog-section{
+    padding: 100px 0;
+    background: #F9F9FD;
+}
+.blog{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog img{}
+.blog a{
+    background: #505050;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.blog h2{
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin: 10px 0;
+}
+.blog p{}
+
+footer{
+    background: #020A1E;
+    padding: 100px 0;
+}
+.about-us{
+    color: white;
+    float: left;
+    width: 40%;
+    padding: 15px;
+}
+.about-us h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about-us p{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 100;
+    font-size: 18px;
+}
+.about-us a{
+    color: #FFC107;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.newsletter{
+    color: white;
+    float: left;
+    width: 40%;
+}
+.newsletter h3{text-transform: uppercase;margin-bottom: 15px;}
+.newsletter p{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 100;
+    font-size: 18px;
+}
+.newsletter form{}
+.newsletter form input{
+    padding: 10px 25px;
+    border: 0;
+    float: left;
+}
+.newsletter form button{background: #ffc107;border: 0;padding: 10px 25px;color: white;float: left;}
+
+.social{
+    color: white;
+    float: left;
+    width: 20%;
+}
+.social h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.social p{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 100;
+    font-size: 18px;
+}
+.social ul{} 
+.social ul li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+.social ul li a{
+    color: gray;
+}
+.social ul li a:hover{
+    color: #ffb300;
+}
+
+
+
+
+
